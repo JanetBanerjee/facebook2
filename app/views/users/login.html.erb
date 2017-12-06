@@ -1,2 +1,14 @@
+
 <%= image_tag @user['picture']['data']['url'].to_s %>
 <%= @user['name'] %>
+<%= @p = @user['posts'] %>
+
+<% @user['posts'].each do |x| %>
+    <% x.each do |y| %>
+        <%= y[1] %>
+        <% end %>
+    <% end %>
+
+
+
+

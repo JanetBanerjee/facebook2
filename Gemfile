@@ -52,3 +52,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'omniauth-facebook'
 gem 'koala'
 gem 'certified'
+gem 'bootstrap-sass'
